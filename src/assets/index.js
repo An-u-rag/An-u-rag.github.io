@@ -25,11 +25,28 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import pytorch from "./tech/pytorch.svg"
+import libtorch from "./tech/libtorch.png"
+import opencv from "./tech/opencv.svg"
+import fiji from "./tech/fiji.svg"
+import python from "./tech/python.svg"
+import cplusplus from "./tech/cplusplus.svg"
+import cuda from "./tech/cuda.svg"
+import unity from "./tech/unity.svg"
+import unreal from "./tech/unreal.svg"
+import blender from "./tech/blender.svg"
+import omniverse from "./tech/omniverse.png"
+import csharp from "./tech/csharp.svg"
+import elm from "./tech/elm.svg"
+import aws from "./tech/aws.svg"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import madiee from "./company/madiee.png";
+import threedm from "./company/threedm.jpg";
+import protal from "./company/protal.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -49,10 +66,24 @@ export {
   github,
   menu,
   close,
+  pytorch,
+  libtorch,
+  opencv,
+  cplusplus,
+  python,
+  fiji,
+  cuda,
+  unity,
+  unreal,
+  blender,
+  omniverse,
+  csharp,
+  elm,
   css,
   docker,
   figma,
   git,
+  aws,
   html,
   javascript,
   mongodb,
@@ -66,6 +97,9 @@ export {
   shopify,
   starbucks,
   tesla,
+  madiee,
+  threedm,
+  protal,
   carrent,
   jobit,
   tripguide,

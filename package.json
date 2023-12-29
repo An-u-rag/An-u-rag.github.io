@@ -1,9 +1,9 @@
 {
-  "name": "anuragp",
+  "name": "an-u-rag-github-io",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://An-u-rag.github.io",
+  "homepage": "https://an-u-rag.github.io",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

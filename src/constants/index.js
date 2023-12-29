@@ -8,11 +8,25 @@ import {
     cg,
     cv,
     ai,
+    pytorch,
+    libtorch,
+    opencv,
+    cplusplus,
+    python,
+    fiji,
+    cuda,
+    unity,
+    unreal,
+    blender,
+    omniverse,
+    csharp,
+    elm,
     javascript,
     typescript,
     html,
     css,
     reactjs,
+    aws,
     redux,
     tailwind,
     nodejs,
@@ -22,6 +36,9 @@ import {
     docker,
     meta,
     starbucks,
+    threedm,
+    madiee,
+    protal,
     tesla,
     shopify,
     carrent,
@@ -74,32 +91,56 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
+      name: "Pytorch",
+      icon: pytorch
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "Libtorch",
+      icon: libtorch
+    },
+    {
+      name: "OpenCV",
+      icon: opencv
+    },
+    {
+      name: "Fiji",
+      icon: fiji
+    },
+    {
+      name: "C++",
+      icon: cplusplus
+    },
+    {
+      name: "Python",
+      icon: python
+    },
+    {
+      name: "CUDA",
+      icon: cuda
+    },
+    {
+      name: "Unity",
+      icon: unity
+    },
+    {
+      name: "Unreal Engine 5",
+      icon: unreal
+    },
+    {
+      name: "Blender",
+      icon: blender
+    },
+    {
+      name: "Nvidia Omniverse",
+      icon: omniverse
     },
     {
       name: "JavaScript",
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
     },
     {
       name: "Node JS",
@@ -108,78 +149,47 @@ import {
     {
       name: "MongoDB",
       icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    }
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Machine Learning and Computer Vision Associate",
+      company_name: "3DM Devices",
+      icon: threedm,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "May 2023 - December 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Implemented various state-of-the-art Rule & AI based Computer Vision techniques using OpenCV, PyTorch and LibTorch for Anomaly Detection in cured tires.",
+        "Developed in-house architecture and platform for training & testing models using PyTorch, Gradio, WandB, and LibTorch to improve model deployment efficiency.",
+        "Collaborated in the development of the anomaly detection production pipeline in C++, by coding essential functions for image processing and refinement, model integration and post-processing using OpenCV.",
+        "Researched and applied innovative methodologies for Data Management and pipelining to efficiently retrieve data for AI model training.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Software Developer Intern",
+      company_name: "MADIEE Games",
+      icon: madiee,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "July 2021 - October 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Headed a team of 3 to develop Carbon Copy, an online web game to enhance creativity and communication between professional teams, using MERN stack.",
+        "Collaborated on Wavelength, a web game created using React to facilitate team building in client teams.",
+        "Programmed a web-based AR Face Filter App using Clmtrackr, p5.js and React to include interactive components to MADIEE’s games."
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Back-end Lead Developer Intern",
+      company_name: "PROTAL",
+      icon: protal,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "July 2021 - September 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Designed the architecture for server-side Rest-based APIs and scripts to handle the web and app platforms’ endpoint requests using NodeJS and MongoDB.",
+        "Documented and tested the Rest-based API using Postman for robustness and consistency.",
+        "Managed a team of 4-6 backend developers and coordinated with frontend teams using Github, Figma and Discord to synchronize development workflows."
       ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    }
   ];
   
   const testimonials = [
