@@ -1,5 +1,5 @@
 import React from 'react';
-import { Tilt } from 'react-tilt';
+import Tilt from 'react-parallax-tilt';
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
@@ -42,8 +42,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-seondary text-[17px] max-w-3xl leading-[30px'
       >
-          I am a Master's in Computer Science student with a specialization in Computer Vision and Graphics 
-          at Simon Fraser University. <br className='sm:block hidden'/> My more specific interests lie in the
+          I am a Master's student in Computer Science with a specialization in Computer Vision and Graphics 
+          at Simon Fraser University. <br className='sm:block hidden'/> My specific interests lie in the
           fields of 3D computer vision and graphics and their intersection with
           other technologies such as Self driving, Extended Reality(XR) and Robotics.
       </motion.p>

@@ -115,10 +115,6 @@ import {
       icon: python
     },
     {
-      name: "CUDA",
-      icon: cuda
-    },
-    {
       name: "Unity",
       icon: unity
     },
@@ -129,10 +125,6 @@ import {
     {
       name: "Blender",
       icon: blender
-    },
-    {
-      name: "Nvidia Omniverse",
-      icon: omniverse
     },
     {
       name: "JavaScript",
