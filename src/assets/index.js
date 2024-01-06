@@ -9,6 +9,10 @@ import cg from "./cg.png";
 import gp from "./gp.png";
 import xr from "./xr.png";
 import github from "./github.png";
+import twitter from "./twitter.png";
+import linkedin from "./linkedin.png";
+import website from "./website.png";
+import paper from "./paper.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -51,6 +55,12 @@ import protal from "./company/protal.jpg";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import pcuu from "./pcuu.png"; 
+import synthetic from "./synthetic.png"; 
+import clt from "./clt.png"; 
+import blockchainIot from "./blockchainIot.jpg"; 
+import cosmoteem from "./cosmoteem.png"; 
+import asmgame from "./asmgame.jpg"; 
 
 export {
   logo,
@@ -64,6 +74,10 @@ export {
   xr,
   gp,
   github,
+  twitter,
+  linkedin,
+  website,
+  paper,
   menu,
   close,
   pytorch,
@@ -103,4 +117,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  pcuu,
+  synthetic,
+  clt,
+  blockchainIot,
+  cosmoteem,
+  asmgame,
 };

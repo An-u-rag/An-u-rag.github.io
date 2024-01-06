@@ -2,13 +2,13 @@ import Tilt from 'react-parallax-tilt';
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
-import { github } from '../assets';
+import { website, paper, github } from '../assets';
 import { SectionWrapper } from '../hoc';
 import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 
 
-const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
+const ProjectCard = ({ index, name, description, tags, image, source_code_link, extras }) => {
   return (
     <motion.div
       cariants={fadeIn("up", "spring", index * 0.5, 0.75)}
@@ -19,7 +19,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           scale: 1,
           speed: 450
         }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full min-h-[580px]"
       >
         <div className='relative w-full h-[230px]'>
           <img src={image} alt={name} className='w-full h-full object-cover rounded-2xl'/>
@@ -37,6 +37,20 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
               />
 
             </div>
+            {!extras ? "" : Object.entries(extras).map(([key, value]) => (
+                <div 
+                  onClick={() => window.open
+                    (value, "_blank")}
+                    className='bg-gradient-to-r from-black to-gray-400 hover:to-gray-200 hover:from-gray-400 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+                >
+                  <img
+                    src={eval(key)}
+                    alt={key}
+                    className='w-1/2 h-1/2 object-contain'
+                  />
+
+                </div>
+              ))}
           </div>
         </div>
 

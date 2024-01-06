@@ -45,6 +45,12 @@ import {
     jobit,
     tripguide,
     threejs,
+    pcuu,
+    synthetic,
+    clt,
+    blockchainIot,
+    cosmoteem,
+    asmgame,
   } from "../assets";
   
   export const navLinks = [
@@ -92,57 +98,154 @@ import {
   const technologies = [
     {
       name: "Pytorch",
-      icon: pytorch
+      icon: pytorch,
+      color: "text-red-700"
     },
     {
       name: "Libtorch",
-      icon: libtorch
+      icon: libtorch,
+      color: "text-red-400"
     },
     {
       name: "OpenCV",
-      icon: opencv
+      icon: opencv,
+      color: "text-green-700"
     },
     {
       name: "Fiji",
-      icon: fiji
+      icon: fiji,
+      color: "text-blue-700"
     },
     {
       name: "C++",
-      icon: cplusplus
+      icon: cplusplus,
+      color: "text-indigo-600"
     },
     {
       name: "Python",
-      icon: python
+      icon: python,
+      color: "text-yellow-700"
     },
     {
       name: "Unity",
-      icon: unity
+      icon: unity,
+      color: "text-red-700"
     },
     {
       name: "Unreal Engine 5",
-      icon: unreal
+      icon: unreal,
+      color: "text-fuchsia-200"
     },
     {
       name: "Blender",
-      icon: blender
+      icon: blender,
+      color: "text-orange-200"
     },
     {
       name: "JavaScript",
       icon: javascript,
+      color: "text-yellow-300"
     },
     {
       name: "React JS",
       icon: reactjs,
+      color: "text-cyan-400"
     },
     {
       name: "Node JS",
       icon: nodejs,
+      color: "text-emerald-600"
     },
     {
       name: "MongoDB",
       icon: mongodb,
+      color: "text-green-900"
     }
   ];
+
+  const techDict = {
+    "PyTorch": {
+      name: "PyTorch",
+      icon: pytorch,
+      color: "text-red-700"
+    },
+    "LibTorch": {
+      name: "LibTorch",
+      icon: libtorch,
+      color: "text-red-400"
+    },
+    "OpenCV": {
+      name: "OpenCV",
+      icon: opencv,
+      color: "text-green-700"
+    },
+    "Fiji": {
+      name: "Fiji",
+      icon: fiji,
+      color: "text-blue-700"
+    },
+    "C++": {
+      name: "C++",
+      icon: cplusplus,
+      color: "text-indigo-600"
+    },
+    "C#": {
+      name: "C#",
+      icon: csharp,
+      color: "text-indigo-300"
+    },
+    "Python": {
+      name: "Python",
+      icon: python,
+      color: "text-yellow-700"
+    },
+    "ASM": {
+      name: "ASM",
+      icon: null,
+      color: "text-lime-200"
+    },
+    "Unity": {
+      name: "Unity",
+      icon: unity,
+      color: "text-red-700"
+    },
+    "Unreal Engine 5": {
+      name: "Unreal Engine 5",
+      icon: unreal,
+      color: "text-fuchsia-200"
+    },
+    "Blender": {
+      name: "Blender",
+      icon: blender,
+      color: "text-orange-200"
+    },
+    "JavaScript": {
+      name: "JavaScript",
+      icon: javascript,
+      color: "text-yellow-300"
+    },
+    "Elm": {
+      name: "Elm",
+      icon: elm,
+      color: "text-cyan-700"
+    },
+    "React": {
+      name: "React",
+      icon: reactjs,
+      color: "text-cyan-400"
+    },
+    "Node": {
+      name: "Node",
+      icon: nodejs,
+      color: "text-emerald-600"
+    },
+    "MongoDB": {
+      name: "MongoDB",
+      icon: mongodb,
+      color: "text-green-900"
+    }
+  };
+
   
   const experiences = [
     {
@@ -211,69 +314,129 @@ import {
     },
   ];
   
+
   const projects = [
     {
-      name: "Car Rent",
+      name: "Edge-aware Point Cloud Upsampling Neural Network",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "An implementation of 3D Deep Learning and Traditional Computer Vision techniques to accurately upsample point clouds while being edge aware and respecting finer details.",
       tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+          techDict["Python"],
+          techDict["PyTorch"],
+          {
+            name: "COLMAP",
+            icon: null,
+            color: "text-indigo-600"
+          }
+     ],
+      image: pcuu,
+      source_code_link: "https://github.com/An-u-rag/pointcloud-upsampling",
     },
     {
-      name: "Job IT",
+      name: "Synthetic Data Generation via Digital Twins",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Generation of synthetic visual datasets for training Deep Learning Models while maintaing their accuracy.",
       tags: [
+        techDict["Python"],
+        techDict["PyTorch"],
+        techDict["Unreal Engine 5"],
         {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
+          name: "NVIDIA Omniverse",
+          icon: null,
+          color: "text-green-400"
+        }
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: synthetic,
+      source_code_link: "https://github.com/An-u-rag/synthetic-visual-dataset-generation",
     },
     {
-      name: "Trip Guide",
+      name: "CLT Creator",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+        "An interactive 3D educational system for programmatic sustainable construction with libraries for Cross laminated Timber (CLT) 3D models and mathematical transformations",
+        tags: [
+          techDict["Elm"],
+          techDict["JavaScript"],
+          {
+            name: "WebGL",
+            icon: null,
+            color: "text-white-400"
+          }
+        ],
+      image: clt,
+      source_code_link: "https://github.com/An-u-rag/clt-creator",
+      extras: {
+        "website": "https://cltcreator.netlify.app/",
+      }
+    },
+    {
+      name: "Secure Blockchain in IoT Systems",
+      description:
+        "'Implementing security in IoT systems via blockchain' is a research project taken up by me to experiment with increasing communication security in IoT systems.",
+        tags: [
+          techDict["C++"],
+          {
+            name: "Low-Level Programming",
+            icon: null,
+            color: "text-white-400"
+          },
+          {
+            name: "Blockchain",
+            icon: null,
+            color: "text-purple-700"
+          },
+          {
+            name: "IoT Security",
+            icon: null,
+            color: "text-blue-400"
+          }
+        ],
+      image: blockchainIot,
+      source_code_link: "https://github.com/An-u-rag/model-blockchain",
+      extras: {
+        "paper": "https://www.inderscienceonline.com/doi/abs/10.1504/IJITST.2023.127391",
+      } 
+    },
+    {
+      name: "Cosmoteem",
+      description:
+        "A community web app for space enthusiasts, budding astronomers, and learners. Updating in real-time with the latest news and with a simple 3D model solar system.",
+        tags: [
+          techDict["JavaScript"],
+          techDict["Node"],
+          techDict["MongoDB"],
+          techDict["C#"],
+          techDict["Unity"],
+          {
+            name: "Full-Stack",
+            icon: null,
+            color: "text-white-400"
+          },
+        ],
+      image: cosmoteem,
+      source_code_link: "https://github.com/An-u-rag/Cosmoteem",
+      extras: {
+        "website": "https://cosmoteem.herokuapp.com/",
+      }
+    },
+    {
+      name: "Pixel Platformer Game (Assembly Language)",
+      description:
+        "Platformer game programmed in assembly language on an 8086 microprocessor using low level programming concepts like registers.",
+        tags: [
+          techDict["ASM"],
+          {
+            name: "Low-Level Programming",
+            icon: null,
+            color: "text-white-400"
+          },
+          {
+            name: "Game Development",
+            icon: null,
+            color: "text-blue-400"
+          }
+        ],
+      image: asmgame,
+      source_code_link: "https://github.com/An-u-rag/assembly-game-prog",
     },
   ];
   
