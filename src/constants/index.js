@@ -249,11 +249,24 @@ import {
   
   const experiences = [
     {
-      title: "Machine Learning and Computer Vision Associate",
+      title: "Machine Learning and Computer Vision Engineer",
       company_name: "3DM Devices",
       icon: threedm,
       iconBg: "#383E56",
-      date: "May 2023 - December 2023",
+      date: "May 2024 - Present",
+      points: [
+        "Engineered a development platform for AI-based anomaly detection using Python, OpenCV and PyTorch resulting in a reduction in net expenses by replacing a third-party service.",
+        "Implemented and fine-tuned segmentation models, gaining a 10% increase on manufacturing industry datasets.",
+        "Optimized team productivity up to 80% by scripting an automated 3D data retrieval tool for 2D image projection.",
+        "Achieved a remarkable 76% edge device time optimization through efficient development of image processing algorithms and streamlining real-time AI inference in C++ and LibTorch using CUDA GPU acceleration.",
+      ],
+    },
+    {
+      title: "Machine Learning and Computer Vision Research Associate (Co-op)",
+      company_name: "3DM Devices",
+      icon: threedm,
+      iconBg: "#383E56",
+      date: "May 2023 - April 2024",
       points: [
         "Implemented various state-of-the-art Rule & AI based Computer Vision techniques using OpenCV, PyTorch and LibTorch for Anomaly Detection in cured tires.",
         "Developed in-house architecture and platform for training & testing models using PyTorch, Gradio, WandB, and LibTorch to improve model deployment efficiency.",
